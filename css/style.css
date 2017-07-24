@@ -34,13 +34,14 @@ nav .container-fluid .navbar-brand {
 	left:30%;
 }
 
-nav .container-fluid p {
+p.navbar-text {
 	word-spacing: 10px;
-	margin-right: 60px;
+	margin-right: 100px;
 	position: relative;
-	right: -50%;
+	right: -43%;
 
 }
+
 
 .panel .panel-heading {
 	font-family: Georgia, serif;
@@ -57,18 +58,20 @@ nav .container-fluid p {
 }
 
 
-.navbar-bottom div {
+.navbar.navbar-default.navbar-bottom {
 	background-color: #666666;
 	color: white;
 	text-align: center;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	font-family: "Arial", sans-serif;
+	font-size: 15px;
 	width: 100%;
 	border-top: 8px solid #4aaaa5;
-	bottom: 0px;
-	margin-top: 0px;
 	position: relative;
+	bottom: -120px;
+	margin-top: 0px;
+	margin-bottom:0px;
 
 }
 
@@ -110,7 +113,7 @@ label {
 
 }
 
-div button {
+div button.btn-default {
 	color:white;
 	text-align: center;
 	font-family: Helvetica, sans-serif;
@@ -147,4 +150,8 @@ div button {
 img {
 	z-index: 1;
 
+}
+h3.panel-title {
+    font-size: 20px;
+    font-weight:bold;
 }
