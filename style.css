@@ -1,0 +1,68 @@
+body {
+
+	background-image: url("Images/background.png");
+	width: 100%;
+	margin:0px;
+
+}
+
+nav .container-fluid .navbar-brand {
+	
+	color:white;
+	padding-left:50px;
+	background-color: #4aaaa5;
+	font-family: Georgia, serif;
+	font-size: 35px;
+	padding-left:10px;
+	margin-left: 30px;
+	position:relative;
+	top:0px;
+	left:213px;
+}
+
+nav .container-fluid p {
+	word-spacing: 10px;
+	margin-right: 60px;
+	position: relative;
+	right: -645px;
+
+}
+
+.navbar-bottom div {
+	background-color: #666666;
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-family: "Arial", sans-serif;
+	width: 100%;
+	border-top: 8px solid #4aaaa5;
+	bottom: 0px;
+	margin-top: 0px;
+	position: relative;
+
+}
+
+a:link {
+
+	font-family: Helvetica, sans-serif;
+	color: grey;
+	text-decoration: none;
+
+}
+
+a:visited {
+
+	font-family: Helvetica, sans-serif;
+	color: grey;
+	text-decoration: none;
+
+}
+
+a:hover {
+
+	font-family: Helvetica, sans-serif;
+	color: #c8e5e4;
+	text-decoration: none;
+
+}
