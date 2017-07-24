@@ -4,7 +4,7 @@
 <head>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 
 	<title>Bootstrap Portfolio</title>
@@ -28,13 +28,24 @@
 	<div class= "col-lg-7">
 	<div class="panel panel-default">
   	<div class="panel-body">
-	<h1>About Me</h1>
-		<div class= "col-lg-4">
-		<img src="Images/MeBench.jpg" style="width:175px;height:125px">
-		</div>
-		<p>
-		My name is Tori White and I am 25 years old. I live in Yorba Linda with my parents, 2 dogs, and 22 year old sister. I also have a 29 year old sister who lives in Carlsbad. This October, my fiancee and I are getting married. He and I will be taking a roadtrip to Yellowstone for our honeymoon.<br>
-		Some hobbies I enjoy are hiking, camping, kayaking, archery, piloting my drone, printing objects with my 3D printer, making leather goods, painting, and knitting. I love listening to music and binge watch TV shows and movies. One of my favorite movies is Pan's Labyrinth.</p>
+	<h1>Contact</h1>
+		<label>Name</label><div class="input-group col-lg-12">
+  		<input type="text" class="form-control" placeholder="John Smith" aria-describedby="sizing-addon2"></div>
+
+  		<label>Email</label><div class="input-group col-lg-12"><input type="text" class="form-control" placeholder="example@mail.com" aria-describedby="sizing-addon2"></div>
+
+  		<label>Message</label><div class="input-group col-lg-12"><input type="text" class="form-control" placeholder="Optional" aria-describedby="sizing-addon2"></div>
+
+  		<br>
+  		<!-- Single button -->
+		<div class="btn-group">
+  			<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    		Submit <span class="caret"></span>
+  			</button>
+  			<ul class="dropdown-menu">
+    		<li><a href="#">Reset</a></li>
+  			</ul>
+	</div>
 	</div>
 	</div>
 	</div>
